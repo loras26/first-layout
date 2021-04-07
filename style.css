@@ -16,11 +16,7 @@ body {
     background-color: lightgreen;
     padding: 1em;
 }
-.side-bar {
-    float: left;
-    width: 25%;
-    padding: 1em;
-}
+
 .content {
     padding: 1em;
 }
@@ -28,9 +24,6 @@ body {
     list-style: none;
     margin: 0em;
     padding: 0em;
-}
-.menu li {
-    list-style: none;
 }
 
 
@@ -49,6 +42,7 @@ body {
     .side-bar {
         float: left;
         width: 25%;
+        padding: 1em;
     }
     .menu {
         display: flex;
